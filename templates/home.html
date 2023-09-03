@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<style>
+.div-1{
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+.div-2{
+  margin-left:200px;
+}
+.div-3{
+  margin-right:200px;
+}
+.p3 {
+  font-family: "Cursive";
+  font-weight:bold;
+  font-size:35px;
+  text-align:center;
+}
+.container{
+  display:flex;
+  text-align:right;
+}
+</style>
+</head>
+<body>
+
+ {% include 'navbar.html' %}
+<div class="conatainer-fluid">
+  {% include 'odd.html' %}
+  {% include 'even.html' %}
+  {% include 'odd.html' %}
+  {% include 'even.html' %}
+
+</div>
+</body>
+</html>
