@@ -13,7 +13,7 @@
 .div-3{
   margin-right:200px;
 }
-.p3 {
+.fontstyle{
   font-family: "Cursive";
   font-weight:bold;
   font-size:35px;
@@ -23,17 +23,20 @@
   display:flex;
   text-align:right;
 }
+.no-color-change {
+    color: black;
+    text-decoration: none; /* Remove underline (optional) */
+}
 </style>
 </head>
 <body>
 
  {% include 'navbar.html' %}
-<div class="conatainer-fluid">
+<div class="conatainer-fluid ">
   {% include 'odd.html' %}
   {% include 'even.html' %}
   {% include 'odd.html' %}
   {% include 'even.html' %}
-
 </div>
 </body>
 </html>
